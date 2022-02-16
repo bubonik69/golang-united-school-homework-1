@@ -1,5 +1,13 @@
 package solution
 
-func GetMessage() string {
-	return "Hello 🗺️!"
+import (
+	"github.com/kyokomi/emoji/v2"
+)
+
+func GetMessage()  string {
+	pizzaMessage := emoji.Sprint("Hello 🗺️ !!!")
+	return pizzaMessage
 }
+
+
+
