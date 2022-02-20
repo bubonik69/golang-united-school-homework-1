@@ -2,4 +2,4 @@ module github.com/kyokomi/emoji
 
 go 1.16
 
-require github.com/kyokomi/emoji/v2 v2.2.8 // indirect
+require github.com/kyokomi/emoji/v2 v2.2.8
